@@ -12,18 +12,17 @@ CON_NAME
 CDB$ROOT
 
 
-# show all PDBS
+## show all PDBS
 
  show pdbs;
 
- CON_ID CON_NAME			  OPEN MODE  RESTRICTED
----------- ------------------------------ ---------- ----------
-2 PDB$SEED			  READ ONLY  NO
-3 ORCLPDB1			  READ WRITE NO
+|| CON_ID ||CON_NAME||			  OPEN MODE||  RESTRICTED||
+|2 |PDB$SEED|			  READ ONLY  |NO|
+|3| ORCLPDB1|			  READ WRITE |NO|
 
 
 
-# drop a PDB including all datafiles
+## drop a PDB including all datafiles
 
 alter pluggable database ORCLPDB1 close immediate;
 
