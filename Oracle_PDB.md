@@ -16,9 +16,10 @@ CDB$ROOT
 
  show pdbs;
 
-|| CON_ID ||CON_NAME||			  OPEN MODE||  RESTRICTED||
-|2 |PDB$SEED|			  READ ONLY  |NO|
-|3| ORCLPDB1|			  READ WRITE |NO|
+| CON_ID |CON_NAME| OPEN MODE |  RESTRICTED |
+| -----| ------------- | ------------- | -----|
+|2 | PDB$EED | READ ONLY  | NO |
+|3 | ORCLPDB1 | READ WRITE | NO |
 
 
 
