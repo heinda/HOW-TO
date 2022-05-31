@@ -1,0 +1,1 @@
+ docker run --name some-mysql -v /my/own/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Password01 -e MYSQL_ROOT_HOST=% -e MYSQL_DATABASE=mp3 -e MYSQL_USER=dhe -e MYSQL_PASSWORD=password -d mysql:latest

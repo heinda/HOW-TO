@@ -7,7 +7,7 @@ content:
 ```
 #!/bin/sh
 
-branch=$(git rev-parse --symbolic --abbrev-ref $1)
+branch="$(git rev-parse --abbrev-ref HEAD)"
 echo Update pushed to branch $branch
 
 curl http://localhost:8000/git/notifyCommit?url=job&branch=$branch
