@@ -13,6 +13,7 @@ echo Update pushed to branch $branch
 curl http://localhost:8000/git/notifyCommit?url=job&branch=$branch
 
 
+# create a new branch
 
 As an example, let’s say that you want to create a new Git branch from the master branch named “feature”
 
