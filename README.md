@@ -1,7 +1,8 @@
 # https://serverfault.com/questions/503269/executing-curl-upon-git-push
 
 in .git/hooks
-add post-commit file
+add post-commit file. 
+See git manpages for more hooks available.
 
 content:
 ```
